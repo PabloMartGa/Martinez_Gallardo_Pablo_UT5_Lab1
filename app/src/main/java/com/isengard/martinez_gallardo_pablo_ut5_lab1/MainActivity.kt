@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
     // 1. MENÚ DE OPCIONES SUPERIOR (Action Bar / Toolbar)
     // ----------------------------------------------------
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu., menu)
+        menuInflater.inflate(R.menu.menu_main, menu)
         return true
     }
 
@@ -108,14 +108,14 @@ class MainActivity : AppCompatActivity() {
 
     private fun obtenerEtapas(): List<Etapa> {
         return listOf(
-            Etapa(1, "La Comarca (Bolsón Cerrado)", "Bajo", "Punto de partida de la misión.", R.drawable.etapa_comarca),
-            Etapa(2, "Rivendel (Imladris)", "Bajo", "El Concilio de Elrond forja la Comunidad.", R.drawable.etapa_rivendel),
-            Etapa(3, "Las Minas de Moria", "Extremo", "Tierra subterránea del Daño de Durin.", R.drawable.etapa_moria),
-            Etapa(4, "Bosque de Lothlórien", "Medio", "Refugio élfico de la Dama Galadriel.", R.drawable.etapa_lorien),
-            Etapa(5, "Amon Hen", "Alto", "Ruptura de la Comunidad y sacrificio de Boromir.", R.drawable.etapa_amon_hen),
-            Etapa(6, "Las Ciénagas de los Muertos", "Alto", "Velas fétidas y caídos de la Guerra.", R.drawable.etapa_cienagas),
-            Etapa(7, "Paso de Cirith Ungol", "Extremo", "Antro de Ella-Laraña y guardia orca.", R.drawable.etapa_cirith_ungol),
-            Etapa(8, "El Monte del Destino", "Crítico", "Las Grietas del Destino en Gorgoroth.", R.drawable.etapa_monte_destino)
+            Etapa(1, "La Comarca (Bolsón Cerrado)", "Bajo", "Punto de partida de la misión.", R.drawable.ic_launcher_background),
+            Etapa(2, "Rivendel (Imladris)", "Bajo", "El Concilio de Elrond forja la Comunidad.", R.drawable.ic_launcher_background),
+            Etapa(3, "Las Minas de Moria", "Extremo", "Tierra subterránea del Daño de Durin.", R.drawable.ic_launcher_background),
+            Etapa(4, "Bosque de Lothlórien", "Medio", "Refugio élfico de la Dama Galadriel.", R.drawable.ic_launcher_background),
+            Etapa(5, "Amon Hen", "Alto", "Ruptura de la Comunidad y sacrificio de Boromir.", R.drawable.ic_launcher_background),
+            Etapa(6, "Las Ciénagas de los Muertos", "Alto", "Velas fétidas y caídos de la Guerra.", R.drawable.ic_launcher_background),
+            Etapa(7, "Paso de Cirith Ungol", "Extremo", "Antro de Ella-Laraña y guardia orca.", R.drawable.ic_launcher_background),
+            Etapa(8, "El Monte del Destino", "Crítico", "Las Grietas del Destino en Gorgoroth.", R.drawable.ic_launcher_background)
         )
     }
 }
