@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/fondo_oscuro"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/ivLogoSplash"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/anillo_dorado"
+        android:contentDescription="@string/desc_anillo" />
+
+    <TextView
+        android:id="@+id/tvTituloSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/titulo_ruta"
+        android:textColor="@color/dorado_anillo"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/modulo_dam"
+        android:textColor="@color/texto_secundario"
+        android:textSize="14sp" />
+
+    <!-- Indicador de carga de 3 segundos exigido por el enunciado -->
+    <ProgressBar
+        android:id="@+id/pbCarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/dorado_anillo" />
+
+</LinearLayout>

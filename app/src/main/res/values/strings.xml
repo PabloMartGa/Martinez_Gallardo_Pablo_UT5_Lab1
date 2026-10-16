@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Martinez_Gallardo_Pablo_UT5_Lab1</string>
+    <string name="app_name">La Ruta hacia el Destino</string>
+    <string name="titulo_ruta">La Ruta hacia la Montaña del Destino</string>
+    <string name="modulo_dam">Programación Multimedia y Dispositivos Móviles (2º DAM)</string>
+    <string name="desc_anillo">El Anillo Único</string>
+    <string name="desc_miniatura">Miniatura del terreno</string>
+    <string name="hint_long_press">Mantén pulsada una etapa para desplegar el menú contextual</string>
+    <string name="action_abandonar">Abandonar Misión</string>
+    <string name="action_inspeccionar">Inspeccionar Terreno</string>
 </resources>
